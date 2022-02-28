@@ -1,0 +1,45 @@
+.board{
+    padding: 3rem;
+    background-color: white;
+    width: 550px;
+    border-radius: .25rem;
+}
+
+.quote{
+    text-align: center;
+    font-weight: 500;
+}
+
+span img{
+    width: 50px;
+    height: 50px;
+}
+
+.name{
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: right;
+}
+
+.wrapper{
+    background-color: brown;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+
+button{
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: .7rem .75rem;
+    border-radius: .2rem;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    filter: brightness(1.2);
+}
